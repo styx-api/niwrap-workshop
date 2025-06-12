@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Others
+.ipynb_checkpoints/
+styx_tmp/
