@@ -36,9 +36,14 @@ pip install jupyter
 
 ## Required neuroimaging tools
 
+- [`ANTs`]
+- [`FSL`]
+
 <!-- Links -->
 
 [Docker]: https://www.docker.com/
 [Jupyter]: https://jupyter.org/
 [`niwrap`]: https://github.com/styx-api/niwrap
 [Singularity]: https://apptainer.org/
+[`ANTs`]: https://github.com/ANTsX/ANTs
+[`FSL`]: https://fsl.fmrib.ox.ac.uk/fsl/docs/#/
