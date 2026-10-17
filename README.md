@@ -6,14 +6,15 @@ This workshop showcases how to use [`niwrap`] through a series of hands-on examp
 provided as [Jupyter] notebooks. All necessary data for running the examples is
 included in the repository.
 
-To run the examples, some neuroimaging tools must be available - see
-[Required neuroimaging tools](#required-neuroimaging-tools) for more details. These
-can be accessed via local installations, [Docker], or [Singularity].
+To run the examples, some neuroimaging tools are used - see
+[Neuroimaging tools used](#neuroimaging-tools-used) for more details. These
+can be accessed via local installations or through containers (e.g. [Docker], 
+[Singularity]).
 
-- If the necessary tools are already installed on your local machine or [Docker] is
-  available, you're all set - no further setup is needed.
-- If you plan to use [Singularity], a few additional setup steps are required - don't
-  worry, detailed instructions are provided below!
+- If the necessary tools are already installed on your local machine, you're all set - 
+no further setup is needed.
+- If you plan to use containers, only an internet connection is required - all
+containers will be automatically downloaded on first use!
 
 ## Getting started
 
@@ -34,7 +35,7 @@ source .venv/bin/activate
 pip install jupyter
 ```
 
-## Required neuroimaging tools
+## Neuroimaging tools used
 
 - [`ANTs`]
 - [`FSL`]
